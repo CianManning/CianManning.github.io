@@ -1,0 +1,139 @@
+/* html{
+    scroll-behavior: smooth;
+}*/
+
+body{
+    position: relative;
+}
+
+.containerForBio{
+        width:100%;
+        background-color: #f9f1f1;
+        color:#0000ff;
+        position:relative;
+        padding-bottom: 1em;
+    
+        
+    }
+    
+.title{
+        font-family: 'Montserrat';
+        text-align: center;
+        position: relative;
+        padding:5em;
+        padding-bottom: 8em;
+        
+        }
+        .btn-link{
+            color:#0000ff !important;
+            Float:right;
+            position:relative;
+            top:-2.7em;
+            transition: 'blogTitle' 1s ease;
+        }
+
+        .title h2{
+            border-bottom:1px solid #0000ff;
+            width: 100%;
+            
+        }
+
+
+
+.image{
+    width:18%;
+    float: left;
+    }  
+
+    .image img{
+            position:relative;
+            width:100%;
+            padding: 1em;
+            left:.5em;
+            top:-5em;
+
+            }
+    
+.text{
+    padding:.5em;
+    font-family: 'helvetica neue';
+    }
+    
+    .col1{
+        position:relative;
+        top:-2.4em;
+}
+
+
+.bioFooter{
+        font-family: 'helvetica neue';
+        text-align: center;
+        position: relative;
+        padding:2em;
+        margin-top:7em;
+        color:#0000ff;
+        
+}
+        
+.containerForBlog{
+    background-color:#f1f8f8;
+    color:#b53756;
+}
+
+#blogTitle{
+    padding-top: 15em;
+    font-family: 'helvetica neue';
+    position:relative;
+    left:1.8em;
+    top:-6em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#topBtn{
+    position:relative;
+    cursor:pointer;
+    bottom:-15.5em;
+    right:-85em;
+    color:red;
+    cursor:pointer;
+}
+
+.blogContainer{
+    padding: 2.5em;
+    border-bottom: 2px solid #b53756;
+}
+
+.assignmentTitle{
+    position:relative;
+    top:1em;
+    left:2em;
+}
+
+.col-sm-2{
+    position:relative;
+    text-align:center;
+    
+}
+
+.col-sm-3 img{
+    position:relative;
+    height:46%;
+    width:91%;
+    text-align: center;
+    left:
+    
+    }
+
+.col-sm-7{
+    position:relative;
+    text-align:left;
+    
+    }
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+    position:relative;
+
+}
+    
