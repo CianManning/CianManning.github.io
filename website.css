@@ -101,6 +101,7 @@ body{
 .blogContainer{
     padding: 2.5em;
     border-bottom: 2px solid #b53756;
+    font-family: lato;
 }
 
 .assignmentTitle{
