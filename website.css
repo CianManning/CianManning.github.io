@@ -15,42 +15,40 @@ a{
 }
     
 .title{
-        font-family: 'Montserrat';
-        text-align: center;
-        position: relative;
-        padding:5em;
-        padding-bottom: 8em;
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    padding:5em;
+    padding-bottom: 8em;
         
         }
-        .btn-link{
-            color:#0000ff !important;
-            transition: 'blogTitle' 1s ease;
+.btn-link{
+    color:#0000ff !important;
+    transition: 'blogTitle' 1s ease;
+    
+    position: relative;
+    padding: 5em;
+    
         }
-        
-        .title btn-link{
-            height:20%;
-}
 
-        .title h2{
-            border-bottom:1px solid #0000ff;
-            width: 100%;
+.title h2{
+    border-bottom:1px solid #0000ff;
+    width: 100%;
             
         }
 
 .textBody{
-    padding:.5em;
     font-family: 'helvetica neue';
     }
 
-    .col-sm-3{
-        float: left;
-        text-align: center;
-        
-            }  
+.col-sm-4{
+text-align: left;
+}
+
+.col-sm-4 img{
+    width:70%;
+    float:center;
     
-    .col-sm-4{
-        position:relative;
-        top:-2.4em;
 }
 
 
@@ -58,8 +56,8 @@ a{
         font-family: 'helvetica neue';
         text-align: center;
         position: relative;
-        padding:2em;
-        margin-top:7em;
+        padding:.5em;
+        margin-top:1em;
         color:#0000ff;
         
 }
