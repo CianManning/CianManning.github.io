@@ -63,7 +63,7 @@
         
                 <p>I have worked as a barista in speciality coffee here in Limerick since graduating, even competing a number of times. </p>
 
-                <p>I was previously a member of <a href="https://www.spacecraftlimerick.com/">Spacecraft Artists’ Studios</a> and I still maintain a writing and fine art practice.</p>
+                <p>I was previously a member of <a class="links1" href="https://www.spacecraftlimerick.com/">Spacecraft Artists’ Studios</a> and I still maintain a writing and fine art practice.</p>
         
                 </div>
         
@@ -79,10 +79,6 @@
     
     
     <div class="containerForBlog">
-        
-        <ionButton id="topBtn">
-            <ion-icon name="arrow-up-outline"></ion-icon>
-        </ionButton>
             
         <div id="blogTitle">
 
@@ -150,7 +146,7 @@
                         
                     </div>
                     
-                    <ionButton id="topBtn">
+                    <ionButton class="topBtn">
                     <ion-icon name="arrow-up-outline"></ion-icon>
                         <a href= "containerForBio"></a>
                     </ionButton>
@@ -171,7 +167,7 @@
                     <p>Date:29th/11/20</p>
                     </div>
                     
-                <div class="col-sm-8">
+                <div class="col-sm-7">
                     <p> Very similar structurally to the photography assignment. The sound assignment delineated two options to choose from, a radio advert and a sound story. I picked the former. In retrospect my preference was based upon the appeal of it’s apparent tangibility and structure. It was the only assignment I’ve had this semester that didn’t evoke intense instability. The process was marked by an efficiency and clarity of labour, yet still maintained a sense of openness and searching. With the exception of the photography project my challenge to every other assignment has in fact been contrary to this.</p>
                     
                     <p>The project spanned no more than a week, from fomenting ideas, to gathering and composing sounds, and finally mixing and mastering the final project. My process involved gathering sounds from both sounds.org and recordings I made on my phone. I borrowed a basic  dynamic mic from my housemate, which incited a playfulness to making sounds and ultimately recording the voice-over. I then composed it through post-processing on audacity.</p>
@@ -185,14 +181,20 @@
                     
                 </div>
                     
-                <div class="col-sm-2">
-                    <h5>
-                     <a href= "https://soundcloud.com/user-790694599/assignment-ep"> SOUND
-                        ASSIGNMENT</a>
-                    </h5>
+                <div class="col-sm-3">
+                    
+                    <a href="https://soundcloud.com/user-790694599/assignment-ep" type=ionButton> 
+                    <ion-icon id="soundBtn" name="logo-soundcloud"></ion-icon>
+                    </a>
+                    </div>
+                        
+                    
                 </div>
-            </div>
-                     
+                    
+                 <ionButton class="topBtn">
+                    <ion-icon name="arrow-up-outline"></ion-icon>
+                        <a href= "containerForBio"></a>
+                </ionButton>
             </div>
         
                 <div class="assignmentTitle">
@@ -220,13 +222,21 @@
 
                     <div class="col-sm-3">
                         
-                        <img src="site1.jpg" alt="textsite">
+                        <a href="https://github.com/CianManning/CianManning.github.io">
+                              <img src="site1.jpg" alt="textsite">
+                        </a>
 
                     </div>
+                        
+                     <ionButton class="topBtn">
+                    <ion-icon name="arrow-up-outline"></ion-icon>
+                        <a href= "containerForBio"></a>
+                    </ionButton>
+                        
                 </div>
             </div>
+         </div>
         </div>
-    </div>
     
         
     <!-- JavaSCript loaded last for performance purposes -->
@@ -242,7 +252,7 @@
     $(window).scroll(function(){
     });
         
-    $("#topBtn").on('click', function() {
+    $(".topBtn").on('click', function() {
         $('html ,body').animate({scrollTop : 0},500);
     });
         
