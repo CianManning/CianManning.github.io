@@ -11,7 +11,7 @@
 }
 
 a{
-    color:#0000ff;
+    color:#0000ff !important;
 }
     
 .title{
@@ -19,26 +19,28 @@ a{
     text-align: center;
     position: relative;
     padding:5em;
-    padding-bottom: 8em;
-        
+    padding-bottom:2em;
+    margin-bottom: 2em;
+    border-bottom:1px solid #0000ff;
+       
         }
 .btn-link{
     color:#0000ff !important;
     transition: 'blogTitle' 1s ease;
-    
-    position: relative;
-    padding: 5em;
-    
+    text-decoration:underline !important;
+    float:right;
+   
         }
 
 .title h2{
-    border-bottom:1px solid #0000ff;
-    width: 100%;
-            
+    width: 89.68%;
+    float:left;
+           
         }
 
 .textBody{
     font-family: 'helvetica neue';
+    padding:3em;
     }
 
 .col-sm-4{
@@ -49,6 +51,10 @@ text-align: left;
     width:70%;
     float:center;
     
+}
+
+.links1{
+    text-decoration: underline;
 }
 
 
@@ -63,7 +69,7 @@ text-align: left;
 }
         
 .containerForBlog{
-    background-color:#f1f8f8;
+    background-color:#f1f8f8 !important;
     color:#e0115f;
 }
 
@@ -76,9 +82,10 @@ text-align: left;
     text-transform: uppercase;
 }
 
-#topBtn{
-    cursor:pointer;
+.topBtn{
+    cursor:pointer !important;
     color:#e0115f;
+    font-size: 2em !important;
 }
 
 .blogContainer{
@@ -93,9 +100,11 @@ text-align: left;
     left:2em;
 }
 
-.col-sm-2{
+.col-sm-3{
     position:relative;
     text-align:center;
+    background-color:#f1f8f8 !important;
+    color:#e0115f !important;
     
 }
 
@@ -117,5 +126,11 @@ text-align: left;
     height: 100%;
     position:relative;
 
+}
+
+#soundBtn{
+    cursor:pointer;
+    font-size: 5em;
+    color:#e0115f !important;
 }
     
