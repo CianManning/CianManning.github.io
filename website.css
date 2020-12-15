@@ -115,6 +115,10 @@ text-align: left;
     text-align: center;
     
     }
+.col-sm-3 video{
+    height:95%;
+    width:90%;
+}
 
 .col-sm-7{
     position:relative;
